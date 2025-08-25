@@ -49,8 +49,7 @@ pip install gradio
 python calculator_mcp_server.py
 ```
 
-3. 打开浏览器访问显示的URL（默认为 http://127.0.0.1:7860）
-4. 通过Web界面使用计算器功能
+3. 通过Web界面使用计算器功能
 
 ## 技术实现
 
@@ -85,5 +84,6 @@ python calculator_mcp_server.py
 - 启用了共享功能（share=True），可以生成一个临时的公共URL供他人访问
 
 ## 停止服务器
+
 
 在命令行中按 `Ctrl+C` 可以停止服务器运行。
