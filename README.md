@@ -77,13 +77,10 @@ python calculator_mcp_server.py
 2. 在 `create_calculator_server` 函数中添加对应的Gradio接口函数
 3. 在Gradio界面中添加新的按钮并绑定相应功能
 
-## 注意事项
 
-- 计算器使用 `eval()` 函数进行表达式计算，在生产环境中应考虑更安全的替代方案
-- 服务器默认在所有网络接口（0.0.0.0）上监听7860端口
-- 启用了共享功能（share=True），可以生成一个临时的公共URL供他人访问
 
 ## 停止服务器
 
 
 在命令行中按 `Ctrl+C` 可以停止服务器运行。
+
